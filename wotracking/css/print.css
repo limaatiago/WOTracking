@@ -1,0 +1,88 @@
+/* ESCONDER ELEMENTOS */
+	#adminmenuback, #adminmenuwrap, #wpadminbar, .nativation, .update-nag , .preview-area,
+	#preview-area , .preview-area-messages, .margin-control invisible margin-control-top,
+	#nao-mostrar-impressao, #wpfooter, #screen-meta, .metabox-prefs, .hidden, #screen-meta-links,
+	#contextual-help-link-wrap {
+	display: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 0 !important;
+	height: 0 !important;
+}
+.wrap, .wrap h2, #topo-os {
+	margin: 0 0 0 0 !important;
+	padding: 0 0 0 0 !important;
+}
+h2 {
+	display: none;
+}
+	#wpcontent, body .overlay, body #no-destinations-promo {
+	margin-left: 0;
+	padding: 0;
+	}
+
+
+/* INFO OS */
+.infos-os {
+	margin-top: 10px !important;
+}
+.infos-os, #informacoes-da-os, #tabela-bottom {
+	font-size: 10pt;
+	margin: 0px;
+	color: black;
+}
+#numero_os {
+	background-color: #e0e0e0 !important;
+	-webkit-print-color-adjust: exact; 
+	padding: 6pt 8pt;
+	margin: 0 5px 0 0;
+	border-radius: 2px;
+	font-weight: bold;
+}
+#topo-os, #observacoes-os {
+	display: block;
+	line-height: 11px;
+	color: black;
+}
+#informacoes-empresa {
+	width: 35%;
+	float: right;
+	display: table-cell;
+	vertical-align: middle;
+}
+#observacoes-os {
+	margin-top: 30px !important;
+}
+
+
+/* TABELAS */
+#wot_tabela {
+	box-shadow: 0 0px 0px rgba(0,0,0,.04);
+	border: 0pt solid black;
+	border-left: 0;
+	border-right: 0;
+	margin-bottom: 3px;
+}
+#wot_tabela thead th {
+	padding: 1px 0;
+	border-bottom: 1pt solid black;
+	width: 100%;
+}
+#wot_tabela td {
+	padding: 2px 5px;
+	color: black;
+}
+#dados-cliente {
+	display: none;
+}
+
+/* ORÇAMENTO */
+#qtd_serv {
+	width: 20px !important;
+}
+#desc_serv{
+	width:200px !important;
+}
+#essencial_serv{
+	width:20px !important;
+}

@@ -1,0 +1,297 @@
+/* GERAL */
+#conteudo, #conteudo-principal {
+	float: left;
+	width: 100%;
+}
+#conteudo-principal {
+	margin: 16px 0 0 0;
+	display: table;
+}
+#blocos-conteudo {
+	width: 100%;
+	margin-bottom: 54px;
+	float: left;
+}
+#coluna-esquerda {
+	float:left;
+}
+#coluna-direita {
+	float:right;
+}
+#btn-imprimir {
+	margin-left: 10px;
+}
+
+/* TABELAS PRINCIPAIS */
+#wot_tabela {
+	margin: 6px 0 3px 0;
+	float: left;
+}
+#wot_tabela  td{
+	vertical-align: middle;
+	text-align: justify;
+}
+#wot_tabela th input[type='text'],
+#wot_tabela th input[type='checkbox'] {
+	margin: 3px 0;
+	padding: 3px 5px;
+}
+#wot_tabela input[type="text"] {
+	width: 100%;
+	margin-top: 5px;
+}
+#wot_tabela textarea {
+	width: 100%;
+	margin-top: 5px;
+	height: 80px;
+	resize: none;
+}
+.buttons-bottom {
+	width: 100%;
+	float: left;
+	display: block;
+	margin: 12px 0px;
+	text-align: center;
+}
+
+/* TABELA CONSULTA */
+#tabela-consulta {
+	margin-top:12px;
+}
+#tabela-consulta tbody tr:hover{
+	background-color: #f1f1f1 !important;
+}
+#tabela-consulta tbody tr:nth-child(even){
+	background-color: #fff;
+}
+#tabela-consulta tbody tr:nth-child(odd){
+	background-color: #f9f9f9;
+}
+#tabela-consulta tbody tr a:hover {
+	text-decoration: underline;
+}
+
+/* TABELA INFO ORÇAMENTO */
+#tabela-bottom {
+	margin: 6px 0 3px 0;
+	float: left;
+	width: 100%;
+}
+#tabela-bottom input[type="text"]{
+	width: 95%;
+	margin-top: 5px;
+}
+
+/* INFO OS */
+.infos-os {
+	float: left;
+	font-size: 13px;
+	padding: 6px 0px;
+	margin: 9px 4px 0 0;
+}
+.infos-os  label {
+	vertical-align: baseline;
+}
+#numero_os {
+	background: #e0e0e0;
+	padding: 6px 8px;
+	border-radius: 2px;
+	margin-right: 5px;
+}
+#em-garantia, #fora-de-garantia {
+	margin-left: 5px;
+}
+#informacoes-da-os {
+	font-size: 13px;
+	padding: 6px 0px;
+	margin-top: 2px;
+	float:right;
+}
+#nome-do-autor{
+	width: auto;
+	margin-top: 0;
+}
+
+/* INFO EMPRESA */
+#topo-os {
+	display: none;
+	clear: both;
+}
+#banner-empresa {
+	display: block;
+	float: left;
+}
+#informacoes-empresa {
+	text-align: right;
+	font-size: 8pt;
+	float: right;
+}
+#observacoes-os {
+	font-size: 6pt;
+	display: none;
+	clear: both;
+}
+#assinatura-cliente {
+	margin-top: 10px;
+	font-size: 8pt;
+}
+
+/* UPLOADER BANNER */
+#upload_image_button {
+	margin: 3px 5px;
+}
+
+/* QUADROS */
+#bloco-status {
+	width: 31%;
+	margin-right: 12px;
+	border-spacing: 0px;
+	margin: 6px auto 3px auto;
+	float: left;
+}
+#bloco-status thead th {
+	padding: 20px;
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+}
+#bloco-status tbody tr td {
+	background-color: #fff;
+	text-align: center;
+}
+#bloco-status tbody tr td  input[type="submit"]{
+	width: 70%;
+	padding: 10px 10px 10px 10px;
+	text-align:center;
+	height: auto;
+	font-size: 20px;
+	font-weight: 100;
+	border-radius: 0;
+	#text-align: left;
+}
+#primeiro-botao {
+	padding-top: 40px;
+}
+#meio-botao {
+	padding-top: 20px;
+}
+#ultimo-botao {
+	padding: 20px 0 40px 0;
+}
+#um-botao {
+	padding: 40px 0;
+}
+
+/* PRINCIPAL */
+#tabela_principal {
+	border-spacing: 0;
+	width:70%;
+	position:relative;
+	vertical-align:top;
+}
+.box-principal {
+	background: #fff;
+	position: relative;
+	border: 2px solid #f7f7f7;
+	float:left;
+	cursor: pointer;
+	width: 100%;
+}
+.box-principal td {
+	padding: 45px 30px;
+}
+.box-principal:hover{
+	border: 2px solid #ddd;
+}
+.box-principal h2 {
+	font-weight: 400;
+	padding: 0 0 5px 0;
+	text-transform: uppercase;
+}
+.box-principal p {
+	font-size: 18px;
+	font-weight: 100;
+	margin: 0px;
+}
+#icone {
+	width: 100%;
+}
+#wot_bemvindo {
+	width:27%;
+	float: right;
+}
+
+/* CONTROLE DE RESOLUÇÃO */
+
+@media screen and (max-width: 1095px) {
+	#bloco-status {
+		border-bottom-width: 10px !important;
+	}
+	#primeiro-botao {
+		padding-top: 20px !important;
+	}
+	#meio-botao {
+		padding-top: 10px!important;
+	}
+	#ultimo-botao {
+		padding: 10px 0 20px 0;
+	}
+}
+@media screen and (max-width: 900px) {
+    #tabela_principal{
+		width:100%;
+	}
+	#wot_bemvindo {
+		display:none;
+	}
+}
+@media screen and (max-width: 782px) {
+	.box-principal td {
+		padding: 20px !important;
+	}
+}
+@media screen and (max-width: 600px) {
+	#tabela_principal tr {
+		width:100%;
+	}
+	.box-principal td {
+		padding: 15px !important;
+	}
+	.box-principal h2 {
+		width: 100%;
+		text-transform: none;
+	}
+	.box-principal p {
+		font-size: 14px;
+	}
+	.quadro-esconder {
+		display: none;
+	}
+	#bloco-status {
+		width:100%;
+		margin-right:0;
+	}
+}
+@media screen and (max-width: 550px) {
+    #wot_tabela {
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	#hide {
+        display: none !important;
+    }
+	#ajustar {
+		width: 1%;
+	}
+}
+@media screen and (max-width: 464px) {
+	.box-principal p {
+		display:none;
+	}
+}
+@media screen and (max-width: 422px) {
+	.esconder-orcamento {
+		display:none;
+	}
+}
